@@ -87,7 +87,7 @@ The HPC does not provide sudo access, and does not by default allow you to insta
 
 
 
-0. Change to `$SCRATCH` (remember this is where we must work and launch jobs).
+#### 0. Change to `$SCRATCH` (remember this is where we must work and launch jobs).
 
 ```bash
 cd $SCRATCH
@@ -95,7 +95,7 @@ cd $SCRATCH
 
 
 
-1. Create a _conda_ environment; 
+#### 1. Create a _conda_ environment; 
    - Specify the name with `-n` .
    - Specify the python version with `python=`.
 
@@ -105,7 +105,7 @@ cd $SCRATCH
 
 
 
-2. To view where this environment was created, you can run:
+#### 2. To view where this environment was created, you can run:
 
 ```bash
 (/scratch/<NetID>)$ conda info --envs
@@ -126,7 +126,7 @@ You can see that it was automatically installed into `/home/<NetID>/.conda/envs/
 
 
 
-3. Activate the _conda_ environment you just created:
+#### 3. Activate the _conda_ environment you just created:
 
 ```bash
 (/scratch/<NetID>)$ conda activate myenv-python37
@@ -134,7 +134,7 @@ You can see that it was automatically installed into `/home/<NetID>/.conda/envs/
 
 
 
-3. Check that python was properly installed:
+#### 4. Check that python was properly installed:
    - Now that you are within the `myenv-python37` conda environment the location of python on the system should be on a conda path within your conda environment you just created. 
    - The python version should be `3.7`.
 
@@ -150,7 +150,7 @@ Python 3.7.6
 
 
 
-4. Install _virtualenv_. Note that _pip3_ was installed automatically into the ``myenv-python37` _conda_ environment.
+#### 5. Install _virtualenv_. Note that _pip3_ was installed automatically into the ``myenv-python37` _conda_ environment.
 
 ```bash
 (myenv-python37) (/scratch/<NetID>)$ pip3 install virutalenv
@@ -158,7 +158,7 @@ Python 3.7.6
 
 
 
-5. Create a virtual environment for your python project.
+#### 6. Create a virtual environment for your python project.
    - You are specifying the source python `-p` for this virtual environment (which is the python 3.7 that sits within your conda `myenv-python37` environment)
 
 ```
@@ -167,7 +167,7 @@ Python 3.7.6
 
 
 
-6. Check that your virtual environment was created.  You should find `venv-test/` directory listed in your current directory. 
+#### 7. Check that your virtual environment was created.  You should find `venv-test/` directory listed in your current directory. 
    - Note that you will want to create a virtual environment for each seperate project you are working on, and would create it _within_ the project direcory.
 
 ```bash
@@ -177,7 +177,7 @@ venv-test
 
 
 
-7. Deactive your  ``myenv-python37` _conda_ environment.
+#### 8. Deactive your  ``myenv-python37` _conda_ environment.
 
 ```bash
 (myenv-python37) (/scratch/<NetID>)$ conda deactivate
@@ -185,7 +185,7 @@ venv-test
 
 
 
-8. You can have a functional virtual environment with your desired version of python, and without the need to `sudo apt-get install` packages. Go ahead and activate your virtual environment.
+#### 9. You can have a functional virtual environment with your desired version of python, and without the need to `sudo apt-get install` packages. Go ahead and activate your virtual environment.
 
 ```bash
 (/scratch/<NetID>)$ source venv-test/bin/activate
@@ -193,7 +193,7 @@ venv-test
 
 
 
-9. If you desire to install _matplotlib_, _pandas_, _numpy_, _scikit-image_ you can do the following. 
+#### 10. If you desire to install _matplotlib_, _pandas_, _numpy_, _scikit-image_ you can do the following. 
 
 ```bash
 (venv-test) (/scratch/<NetID>)$ pip3 install matplotlib

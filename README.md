@@ -187,7 +187,8 @@ venv-test
 
 
 
-#### 9. You can have a functional virtual environment with your desired version of python, and without the need to `sudo apt-get install` packages. Go ahead and activate your virtual environment.
+#### 9. Go ahead and activate your virtual environment.
+You can have a functional virtual environment with your desired version of python, and without the need to `sudo apt-get install` packages. 
 
 ```bash
 (/scratch/<NetID>)$ source venv-test/bin/activate

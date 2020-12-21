@@ -179,7 +179,7 @@ venv-test
 
 7. Deactive your  ``myenv-python37` _conda_ environment.
 
-```
+```bash
 (myenv-python37) (/scratch/<NetID>)$ conda deactivate
 ```
 
@@ -187,7 +187,7 @@ venv-test
 
 8. You can have a functional virtual environment with your desired version of python, and without the need to `sudo apt-get install` packages. Go ahead and activate your virtual environment.
 
-```
+```bash
 (/scratch/<NetID>)$ source venv-test/bin/activate
 ```
 

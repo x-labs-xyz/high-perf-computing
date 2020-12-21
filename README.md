@@ -33,15 +33,15 @@ ssh <your NetID>@dalma.abudhabi.nyu.edu
 There are 4 directories you have access to: 
 
 1. `$HOME` (/home/<NetID>)
-   - Keep small persistent fraction of code here (e.g., source code, executables, Python packages ...).
+    - Keep small persistent fraction of code here (e.g., source code, executables, Python packages ...).
 2.  `$SCRATCH` (/scratch/<NetID>)
-   - Put all data here.
-   - Run jobs from here.
+    - Put all data here.
+    - Run jobs from here.
 3.  `$WORK` (/work/<NetID>)
-   - Mountable on your local workstation. 
-   - Useful for quick post-processing, analysis and visualization, without moving data.
+    - Mountable on your local workstation. 
+    - Useful for quick post-processing, analysis and visualization, without moving data.
 4. `$ARCHIVE` (/archive/<NetID>)
-   - For long-term storage, archive work here.
+    - For long-term storage, archive work here.
 
 |                       | $HOME                                             | $SCRATCH        | $WORK           | $ARCHIVE        |
 | --------------------- | ------------------------------------------------- | --------------- | --------------- | --------------- |

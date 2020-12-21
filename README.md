@@ -150,7 +150,8 @@ Python 3.7.6
 
 
 
-#### 5. Install _virtualenv_. Note that _pip3_ was installed automatically into the ``myenv-python37` _conda_ environment.
+#### 5. Install _virtualenv_. 
+Note that _pip3_ was installed automatically into the `myenv-python37` _conda_ environment.
 
 ```bash
 (myenv-python37) (/scratch/<NetID>)$ pip3 install virutalenv
@@ -167,7 +168,8 @@ Python 3.7.6
 
 
 
-#### 7. Check that your virtual environment was created.  You should find `venv-test/` directory listed in your current directory. 
+#### 7. Check that your virtual environment was created.  
+You should find `venv-test/` directory listed in your current directory. 
    - Note that you will want to create a virtual environment for each seperate project you are working on, and would create it _within_ the project direcory.
 
 ```bash

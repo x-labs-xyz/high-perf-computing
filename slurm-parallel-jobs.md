@@ -213,7 +213,7 @@ echo "SLURM_JOB_ID:        $SLURM_JOB_ID"
 echo "SLURM_ARRAY_TASK_ID: $SLURM_ARRAY_TASK_ID"
 
 # Activating virtual environment
-source venv/bin/activate
+source venv-test/bin/activate
 which python
 
 # Running python script
@@ -284,7 +284,7 @@ echo "SLURM_JOB_ID:        $SLURM_JOB_ID"
 echo "SLURM_ARRAY_TASK_ID: $SLURM_ARRAY_TASK_ID"
 
 # Activating virtual environment
-source venv/bin/activate
+source venv-test/bin/activate
 which python
 
 # Running python script

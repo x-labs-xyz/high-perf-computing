@@ -4,6 +4,7 @@ This repo contains a guide to working in the High Performance Computing (HPC) cl
 1. [Main guide for NYUAD HPC.](https://wikis.nyu.edu/display/ADRC/Overview)
 2. [Loading packages as modules](load-module.md)
 3. [Setting up a Python Virtual Environment](setup-python-virtualenv.md)
+4. [Running parallel CPU and GPU jobs with _slurm_](slurm-parallel-jobs.md)
 
 Additional Guides
 - [Adding color to the terminal](add-terminal-color.md)

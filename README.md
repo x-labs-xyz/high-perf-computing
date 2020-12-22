@@ -3,7 +3,7 @@ This repo contains a guide to working in the High Performance Computing (HPC) cl
 
 1. [Main guide for NYUAD HPC.](https://wikis.nyu.edu/display/ADRC/Overview)
 2. [Loading packages as modules](load-module.md)
-3. [Setting up Python Virtual Environment](setup-python-virtualenv.md)
+3. [Setting up a Python Virtual Environment](setup-python-virtualenv.md)
 
 ## Tools of the trade
 

@@ -10,6 +10,13 @@ The HPC does not provide sudo access, and does not by default allow you to insta
 cd $SCRATCH
 ```
 
+**One time only**: Execute the following command for making Dalma Miniconda as your default conda environment. This is needed to be done ONLY once, just for setting up Miniconda for your account. Loading the miniconda module sets the miniconda environement for your account. You also need to source the bashrc file to activate the changes in your current shell. Once the environment is set up, you donot need to load the miniconda again in your subsequent logins.
+
+```bash
+module load miniconda
+source ~/.bashrc
+
+```
 
 
 #### 1. Create a _conda_ environment; 

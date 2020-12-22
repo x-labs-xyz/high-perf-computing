@@ -5,6 +5,9 @@ This repo contains a guide to working in the High Performance Computing (HPC) cl
 2. [Loading packages as modules](load-module.md)
 3. [Setting up a Python Virtual Environment](setup-python-virtualenv.md)
 
+Additional Guides
+- [Adding color to the terminal](add-terminal-color.md)
+
 ## Tools of the trade
 
 Accessing and working with the HPC requires usage and familiarity with the linux command-line interface to: 

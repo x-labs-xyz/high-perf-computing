@@ -124,7 +124,7 @@ You can have a functional virtual environment with your desired version of pytho
 
 ```bash
 (venv-test) (/scratch/<NetID>)$ pip3 install matplotlib
-(venv-test) (/scratch/<NetID>)$ pip3 install panads
+(venv-test) (/scratch/<NetID>)$ pip3 install pandas
 (venv-test) (/scratch/<NetID>)$ pip3 install numpy
 (venv-test) (/scratch/<NetID>)$ pip3 install scikit-image
 ```

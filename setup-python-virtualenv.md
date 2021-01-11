@@ -103,7 +103,7 @@ venv-test
 
 
 
-#### 8. Deactive your  ``myenv-python37` _conda_ environment.
+#### 8. Deactive your  `myenv-python37` _conda_ environment.
 
 ```bash
 (myenv-python37) (/scratch/<NetID>)$ conda deactivate

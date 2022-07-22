@@ -29,7 +29,7 @@ The HPC is not necessarily designed for a _jupyter notebook_ workflow, but rathe
 2. Connect by VPN, and then ssh:
 
 ```bash
-ssh <your NetID>@dalma.abudhabi.nyu.edu
+ssh <your NetID>@jubail.abudhabi.nyu.edu
 ```
 
 
